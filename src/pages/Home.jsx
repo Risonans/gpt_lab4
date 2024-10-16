@@ -24,7 +24,7 @@ const Home = () => {
         <FutureHere />
       </section>
       <section className="blog">
-        <Blog/>
+        <Blog />
       </section>
     </>
   );
