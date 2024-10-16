@@ -6,12 +6,13 @@ import art5 from "./assets/img/nick/art_5.svg"; */
 
 const blog_card_1_Data = {
     src: art1,
+    alt: "Картинка",
     data: "Сент 24, 2021",
     title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
-/*     button: {
+    button: {
         href: "#",
         articles: "Читать полную статью",
-    }, */
+    },
 };
 
 /* const blog_card_2_Data = {
