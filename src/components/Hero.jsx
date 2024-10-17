@@ -37,8 +37,20 @@ export const Illustration = ({ illustration: { alt, src } }) => (
   <img src={src} alt={alt} />
 );
 
+export const SignUp = ({ signUp }) => {
+  const { type, title, src, alt } = signUp;
+  return (
+    <>
+      <div className="left__social_approve">
+        <img src={src} alt={alt} />
+        <p className={type}>{title}</p>
+      </div>
+    </>
+  );
+};
+
 const Hero = () => {
-  const { header, description, illustration, heroCtaButtons } = heroData;
+  const { header, description, illustration, heroCtaButtons, signUp } = heroData;
 
   return (
     <>
@@ -46,6 +58,7 @@ const Hero = () => {
         <Header header={header} />
         <Description description={description} />
         <Buttons ctaButtons={heroCtaButtons} />
+        <SignUp signUp={signUp} />
       </div>
       <div className="hero_section__right">
         <Illustration illustration={illustration} />
