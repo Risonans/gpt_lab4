@@ -437,6 +437,69 @@ p {
   color: #81afdd;
 }
 
+/* Превосходя все ожидания */
+.request_early_access_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+  margin-bottom: 3rem;
+}
+
+.request_early_access_section .request_early_access__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VRwoman__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.request_early_access_section {
+  min-width: 1044px;
+  min-height: 607.53px;
+  top: 2416px;
+  left: 177px;
+}
+
+.request_early_access_section .right_header {
+  max-width: 426px;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.request_early_access_section .request_early_access__right {
+  margin-top: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 50%;
+}
+
+.request_early_access_section .request_it {
+  font-size: 16px;
+  color: #71e5ff;
+}
+
+.request_early_access_section .container__content {
+  width: 419px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81afdd;
+}
+
+.request_early_access_section .right__cta {
+  width: auto;
+  color: #ff8a71;
+  font-size: 16px;
+  border-bottom: 1px;
+  cursor: pointer;
+}
+
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {
@@ -809,3 +872,277 @@ h6 {
   opacity: 0.7;
 }
 /*! Nick */
+
+@media screen and (max-width: 1024px) {
+  .page {
+    align-content: center;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  .header .header__logo .logo__link img {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .header .header__right {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    row-gap: 53px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background: #031b34;
+    visibility: hidden;
+  }
+
+  .header .header__menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .header .header__menu .menu {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .header .header__menu .menu__close {
+    position: absolute;
+    right: -100px;
+    top: -100px;
+  }
+
+  .header .header__menu .menu .menu__item a {
+    font-size: 48px;
+  }
+
+  .hero_section {
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 0;
+    width: 60%;
+  }
+
+  .hero_section .hero_section__left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero_section .hero_section__right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero_section .hero_section__right img {
+    width: 60%;
+  }
+
+  .hero_section .hero_section__left .left__cta_buttons {
+    justify-content: center;
+  }
+
+  .what_is_chatgpt_section {
+    margin-left: -9rem;
+    row-gap: 4rem;
+    max-width: 900px;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__middle {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__bottom .bottom__container {
+    row-gap: 0;
+  }
+
+  .future_here {
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 4rem;
+    width: 80%;
+    margin-left: -10rem;
+  }
+
+  .future_here .future_here__left {
+    row-gap: 1rem;
+  }
+
+  .request_early_access_section{ 
+    min-width: 0px;
+    min-height: 0px;
+  }
+
+  .request_early_access_section .request_early_access__right .container__content {
+    width: 70%;
+  }
+
+  .request_early_access_section .request_early_access__right {
+    margin-bottom: 0rem;
+  }
+
+  .sign_up_and_research{
+    justify-content: center;
+    max-width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 100px;
+    margin-left: -9rem;
+  }
+
+  .sign_up_and_research .down_text {
+    width: 500px;
+    font-size: 24px;
+    line-height: 35px;
+    padding-left: 46px;
+    padding-right: 34;
+  }
+
+  .blog {
+    gap: 1rem;
+    margin-left: -10rem;
+  }
+
+  .blog .con_1 .blog_articles_first{
+    width: 310px;
+  }
+
+  .blog .con_1 .blog_articles_first .blog_text_1{
+    padding: 9px 30px;
+  }
+  
+  .blog .blog_articles{
+    width: 250px;
+  }
+
+  .footer1{
+    margin-left: -10rem;
+  }
+  nav.nedurak {
+    margin-left: -100px;
+  }
+
+  .Footer_Footer_contacts {
+    margin-left: 0rem;
+  }
+
+  .footer2 .Footer_Footer_Footer{
+    margin-left: -3rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 766px) {
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  .hero_section {
+    width: 100%;
+  }
+
+  .brands_section {
+    margin-top: -15px;
+    padding-bottom: 0;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__top {
+    flex-direction: column;
+  }
+
+  .hero_section .hero_section__right img {
+    width: 85%;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__middle .middle__header {
+    width: auto;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__bottom {
+    flex-direction: column;
+  }
+
+  .what_is_chatgpt_section .what_is_chatgpt_section__bottom {
+    row-gap: 2rem;
+  }
+
+  .what_is_chatgpt_section {
+    row-gap: 3rem;
+  }
+
+  .what_is_chatgpt_section {
+    margin: 6rem 0 0;
+  }
+
+  .what_is_chatgpt_section
+    .what_is_chatgpt_section__bottom
+    .bottom__container
+    .container__content {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  a {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  .hero_section .hero_section__left .left__cta_buttons input[type="text"] {
+    min-width: auto;
+  }
+
+  .future_here {
+    row-gap: 3rem;
+  }
+
+  .future_here .future_here__right .right__container {
+    flex-direction: column;
+  }
+
+  .future_here .future_here__right .right__container .container__header {
+    width: 100%;
+  }
+
+  .future_here .future_here__right .right__container .container__content {
+    width: 100%;
+  }
+
+  .future_here .future_here__right {
+    row-gap: 2rem;
+  }
+}
