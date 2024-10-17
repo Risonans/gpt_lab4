@@ -1,4 +1,5 @@
 import IllustrationSvg from "../assets/img/Illustration.svg";
+import SignUpImg from "../assets/img/SignUp.png"
 
 export const heroCtaButtons = [
   {
@@ -16,6 +17,13 @@ export const illustration = {
   alt: "gpt3",
 };
 
+export const signUp = {
+  src: SignUpImg,
+  alt: "sign up",
+  type: "people",
+  title: "1,600 человек запросило доступ за последние  24 часа",
+};
+
 export const header = "Построим Что-нибудь Невероятное с GPT-4 OpenAI";
 
 export const description =
@@ -26,4 +34,5 @@ export const heroData = {
   description,
   heroCtaButtons,
   illustration,
+  signUp,
 };
