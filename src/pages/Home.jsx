@@ -4,6 +4,7 @@ import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 import Blog from "../components/Blog";
+import Footer3 from "../components/Footer3";
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
       </section>
       <section className="blog">
         <Blog />
+      </section>
+      <section className="section footer2">
+        <Footer3/>
       </section>
     </>
   );
