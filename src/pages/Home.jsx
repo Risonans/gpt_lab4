@@ -6,6 +6,7 @@ import FutureHere from "../components/FutureHere";
 import Blog from "../components/Blog";
 import Footer3 from "../components/Footer3";
 import Footer1 from "../components/Footer1";
+import Research from "../components/Research";
 
 const Home = () => {
   return (
@@ -24,6 +25,9 @@ const Home = () => {
       </section>
       <section className="section future_here">
         <FutureHere />
+      </section>
+      <section className="sign_up_and_research">
+        <Research />
       </section>
       <section className="blog">
         <Blog />
