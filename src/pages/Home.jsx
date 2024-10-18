@@ -6,6 +6,7 @@ import FutureHere from "../components/FutureHere";
 import Research from "../components/Research";
 import Blog from "../components/Blog";
 import Footer3 from "../components/Footer3";
+import Footer2 from "../components/Footer2";
 import Footer1 from "../components/Footer1";
 import Expect from "../components/Expect";
 
@@ -38,6 +39,9 @@ const Home = () => {
       </section>
       <section className="section Footer">
         <Footer1 />
+      </section>
+      <section className="footer1">
+        <Footer2 />
       </section>
       <section className="section footer2">
         <Footer3/>
