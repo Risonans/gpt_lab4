@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
+import Research from "../components/Research";
 import Blog from "../components/Blog";
 import Footer3 from "../components/Footer3";
 import Footer1 from "../components/Footer1";
@@ -28,6 +29,9 @@ const Home = () => {
       </section>
       <section className="section request_early_access_section">
         <Expect />
+      </section>
+      <section className="sign_up_and_research">
+        <Research />
       </section>
       <section className="blog">
         <Blog />
