@@ -1,5 +1,5 @@
 
-import { button, footer1Data, question } from "../mockData/footer1Data";
+import { footer1Data } from "../mockData/footer1Data";
 
 export const Question = ({question})=>{
     return (
