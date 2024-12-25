@@ -1,7 +1,7 @@
 import blogData from "../mockData/blogData";
 
 export const BlogCard1 = ({ blog_card_1_Data }) => {
-    const { data: { src, alt, data, title_1, button: { href, articles } }} = blog_card_1_Data;
+    const { src, alt, data, title_1, button: { href, articles } } = blog_card_1_Data;
     return (
         <>
         <div className="blog_articles_first">
@@ -21,7 +21,7 @@ export const BlogCard1 = ({ blog_card_1_Data }) => {
 };
 
 export const BlogCard2 = ({ blog_card_2_Data }) => {
-    const { data: { src, alt, data, title_1, button: { href, articles } }} = blog_card_2_Data;
+    const {src, alt, data, title_1, button: { href, articles }} = blog_card_2_Data;
     return (
         <>
         <div className="blog_articles">
@@ -50,7 +50,12 @@ const Blog = () => {
             <BlogCard1 blog_card_1_Data={blog_card_1_Data} />
         </div>
         <div className="con_2">
-            {blog_card_2_Data.map((data, index) => (
+            {blog_card_2_Data.slice(0, 2).map((data, index) => (
+                <BlogCard2 key={index} blog_card_2_Data={data} />
+            ))}
+        </div>
+        <div className="con_3">
+            {blog_card_2_Data.slice(2, 5).map((data, index) => (
                 <BlogCard2 key={index} blog_card_2_Data={data} />
             ))}
         </div>

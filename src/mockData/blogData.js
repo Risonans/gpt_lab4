@@ -63,8 +63,8 @@ const blogData = {
     blog_card_5_Data,
 }; */
 
-const blogData = [
-    {
+const blogData = {
+    blog_card_1_Data: {
         src: art1,
         data: "Сент 24, 2021",
         title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
@@ -73,7 +73,7 @@ const blogData = [
             articles: "Читать полную статью",
         },
     },
-    {
+    blog_card_2_Data: [{
         src: art2,
         data: "Сент 24, 2021",
         title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
@@ -109,6 +109,7 @@ const blogData = [
             articles: "Читать полную статью",
         },
     },
-];
+],
+};
 
 export default blogData;
