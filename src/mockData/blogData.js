@@ -63,4 +63,52 @@ const blogData = {
     blog_card_5_Data,
 };
 
+/* const blogData = [
+    {
+        src: art1,
+        data: "Сент 24, 2021",
+        title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
+        button: {
+            href: "#",
+            articles: "Читать полную статью",
+        },
+    },
+    {
+        src: art2,
+        data: "Сент 24, 2021",
+        title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
+        button: {
+            href: "#",
+            articles: "Читать полную статью",
+        },
+    },
+    {
+        src: art3,
+        data: "Сент 24, 2021",
+        title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
+        button: {
+            href: "#",
+            articles: "Читать полную статью",
+        },
+    },
+    {
+        src: art4,
+        data: "Сент 24, 2021",
+        title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
+        button: {
+            href: "#",
+            articles: "Читать полную статью",
+        },
+    },
+    {
+        src: art5,
+        data: "Сент 24, 2021",
+        title_1: "GPT-3 и OpenAI - это будущее. Давайте разберемся, как это?",
+        button: {
+            href: "#",
+            articles: "Читать полную статью",
+        },
+    },
+]; */
+
 export default blogData;
