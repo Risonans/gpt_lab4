@@ -4,7 +4,7 @@ import art3 from "../assets/img/nick/art_3.svg";
 import art4 from "../assets/img/nick/art_4.svg";
 import art5 from "../assets/img/nick/art_5.svg";
 
-const blog_card_1_Data = {
+/* const blog_card_1_Data = {
     src: art1,
     alt: "Картинка",
     data: "Сент 24, 2021",
@@ -61,9 +61,9 @@ const blogData = {
     blog_card_3_Data,
     blog_card_4_Data,
     blog_card_5_Data,
-};
+}; */
 
-/* const blogData = [
+const blogData = [
     {
         src: art1,
         data: "Сент 24, 2021",
@@ -109,6 +109,6 @@ const blogData = {
             articles: "Читать полную статью",
         },
     },
-]; */
+];
 
 export default blogData;

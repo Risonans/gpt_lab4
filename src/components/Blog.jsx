@@ -1,7 +1,7 @@
 import blogData from "../mockData/blogData";
 
 export const BlogCard1 = ({ blog_card_1_Data }) => {
-    const { src, alt, data, title_1, button: { href, articles } } = blog_card_1_Data;
+    const { data: { src, alt, data, title_1, button: { href, articles } }} = blog_card_1_Data;
     return (
         <>
         <div className="blog_articles_first">
@@ -21,7 +21,7 @@ export const BlogCard1 = ({ blog_card_1_Data }) => {
 };
 
 export const BlogCard2 = ({ blog_card_2_Data }) => {
-    const { src, alt, data, title_1, button: { href, articles } } = blog_card_2_Data;
+    const { data: { src, alt, data, title_1, button: { href, articles } }} = blog_card_2_Data;
     return (
         <>
         <div className="blog_articles">
@@ -42,7 +42,7 @@ export const BlogCard2 = ({ blog_card_2_Data }) => {
 
 
 const Blog = () => {
-    const {blog_card_1_Data, blog_card_2_Data, blog_card_3_Data, blog_card_4_Data, blog_card_5_Data} = blogData;
+    const {blog_card_1_Data, blog_card_2_Data} = blogData;
 
     return (
         <>
@@ -50,12 +50,9 @@ const Blog = () => {
             <BlogCard1 blog_card_1_Data={blog_card_1_Data} />
         </div>
         <div className="con_2">
-            <BlogCard2 blog_card_2_Data={blog_card_2_Data} />
-            <BlogCard2 blog_card_2_Data={blog_card_3_Data} />
-        </div>
-        <div className="con_3">
-            <BlogCard2 blog_card_2_Data={blog_card_4_Data} />
-            <BlogCard2 blog_card_2_Data={blog_card_5_Data} />
+            {blog_card_2_Data.map((data, index) => (
+                <BlogCard2 key={index} blog_card_2_Data={data} />
+            ))}
         </div>
         </>
     );
