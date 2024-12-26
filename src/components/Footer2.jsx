@@ -52,7 +52,44 @@ export const Collum4 = ({ collum4 }) => {
 };
 
 const Footer2 = () => {
-    const {collum1 ,collum2, collum3, collum4} = footer2Data;
+    /* const {collum1 ,collum2, collum3, collum4} = footer2Data; */
+    const collum1 = footer2Data[0].items[0];
+    const collum2 = {
+        title1:
+        footer2Data[1].items[0].title,
+        title2:
+        footer2Data[1].items[1].title,
+        title3:
+        footer2Data[1].items[2].title,
+        title4:
+        footer2Data[1].items[3].title,
+        title5:
+        footer2Data[1].items[4].title,
+    };
+    const collum3 = {
+        title1:
+        footer2Data[2].items[0].title,
+        title2:
+        footer2Data[2].items[1].title,
+        title3:
+        footer2Data[2].items[2].title,
+        title4:
+        footer2Data[2].items[3].title,
+    };
+    const collum4 = {
+        type1:
+        footer2Data[3].items[0].type,
+        title1:
+        footer2Data[3].items[0].title,
+        type2:
+        footer2Data[3].items[1].type,
+        title2:
+        footer2Data[3].items[1].title,
+        type3:
+        footer2Data[3].items[2].type,
+        title3:
+        footer2Data[3].items[2].title,
+    };
 
     return (
         <>
